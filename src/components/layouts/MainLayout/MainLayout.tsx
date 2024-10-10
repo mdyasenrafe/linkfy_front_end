@@ -14,9 +14,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   const location = useLocation();
 
   return (
-    <section
-      className={`${isDarkMode ? "dark bg-black" : "bg-[#FAFAFA]"} h-[100vh]`}
-    >
+    <section className={`${isDarkMode ? "dark bg-black" : ""}`}>
       <Navbar />
       <React.Fragment>
         <div>{children}</div>

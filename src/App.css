@@ -20,6 +20,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif !important;
+  background: #fafafa;
 }
 
 html {
@@ -53,4 +54,17 @@ input:focus {
 
 .nav_item:hover {
   background-color: #efecff;
+}
+
+.mobile_case {
+  background: url("https://i.ibb.co.com/PzptNwJ/image-removebg-preview-1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
